@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="consultoria.atm.atmempresaconsultoria.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margem_padrao"
+        android:layout_marginTop="@dimen/margem_padrao"
+        android:src="@drawable/logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/empresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/menu_empresa"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <ImageView
+            android:id="@+id/servicos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/menu_servico"
+            tools:layout_editor_absoluteX="210dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/clientes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/menu_cliente"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="283dp" />
+
+        <ImageView
+            android:id="@+id/contato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/menu_contato"
+            tools:layout_editor_absoluteX="210dp"
+            tools:layout_editor_absoluteY="283dp" />
+    </LinearLayout>
+
+</LinearLayout>
